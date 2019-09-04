@@ -1,4 +1,4 @@
-const giphyURL = "http://api.giphy.com/v1/gifs/search?&api_key=dc6zaTOxFJmzC&limit=10&q=";
+const giphyURL = "https://api.giphy.com/v1/gifs/search?&api_key=dc6zaTOxFJmzC&limit=10&q=";
 const inputField = document.getElementById("inputField");
 const submitButton = document.getElementById("submitButton");
 submitButton.addEventListener("click", fetchGIFS);
